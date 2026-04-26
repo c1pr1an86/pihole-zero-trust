@@ -1,9 +1,3 @@
-# ============================
-# ZERO-TRUST DNS BLOCKLIST
-# MAXIMUM PROTECTION
-# ============================
-
-# --- GOOGLE DoH/DoT/DoQ ---
 dns.google
 dns.google.com
 dns.googleapis.com
@@ -12,8 +6,6 @@ dns.google/dns-query
 h3.dns.google
 ws.dns.google
 grpc.dns.google
-
-# --- CLOUDFLARE DoH/DoT/DoQ ---
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
 security.cloudflare-dns.com
@@ -24,14 +16,10 @@ one.one.one.one
 cloudflare-dns.com/dns-query
 dns.quic.cloudflare-dns.com
 h3.cloudflare-dns.com
-
-# --- QUAD9 ---
 dns.quad9.net
 dns10.quad9.net
 dns11.quad9.net
 dns9.quad9.net
-
-# --- NEXTDNS ---
 dns.nextdns.io
 dns1.nextdns.io
 dns2.nextdns.io
@@ -40,13 +28,9 @@ h3.dns.nextdns.io
 ws.dns.nextdns.io
 grpc.dns.nextdns.io
 dns.quic.nextdns.io
-
-# --- OPENDNS / CISCO ---
 doh.opendns.com
 dns.opendns.com
 doh.opendns.com/dns-query
-
-# --- ADGUARD ---
 dns.adguard.com
 dns-family.adguard.com
 dns-unfiltered.adguard.com
@@ -54,38 +38,22 @@ dns.adguard.com/dns-query
 dns.quic.adguard.com
 h3.dns.adguard.com
 ws.dns.adguard.com
-
-# --- CLEANBROWSING ---
 doh.cleanbrowsing.org
 security-filter-dns.cleanbrowsing.org
 family-filter-dns.cleanbrowsing.org
 adult-filter-dns.cleanbrowsing.org
-
-# --- DNS.SB ---
 doh.dns.sb
 dns.sb
-
-# --- MULLVAD ---
 doh.mullvad.net
 dot.mullvad.net
 dns.quic.mullvad.net
-
-# --- TENTA ---
 doh.tenta.io
-
-# --- YANDEX ---
 dns.yandex.net
 dns.yandex.com
-
-# --- ALIDNS ---
 dns.alidns.com
 dns.alidns.net
-
-# --- 360DNS ---
 doh.360.cn
 dns.360.cn
-
-# --- SWISS / EU PRIVACY PROVIDERS ---
 dns.digitale-gesellschaft.ch
 doh.digitale-gesellschaft.ch
 dns.digitale-gesellschaft.org
@@ -94,32 +62,35 @@ dns.switch.ch
 doh.switch.ch
 dns.swisscows.com
 doh.swisscows.com
-
-# --- LIBREDNS ---
 doh.libredns.gr
 dot.libredns.gr
-
-# --- CONTROLD ---
 freedns.controld.com
 doh.controld.com
-
-# --- APPLIED PRIVACY ---
 doh.applied-privacy.net
 dot.applied-privacy.net
-
-# --- DECLOUDUS ---
 dns.decloudus.com
 doh.decloudus.com
-
-# --- DNSLIFY ---
 dns.dnslify.com
 doh.dnslify.com
-
-# --- DNSFORGE ---
 dns.dnsforge.de
 doh.dnsforge.de
-
-# --- DNSCRYPT (ALL SERVERS) ---
+use-application-dns.net
+mozilla.cloudflare-dns.com
+mozilla.nextdns.io
+dns.cloudflare-gateway.com
+dns.nextdns-gateway.com
+dns.adguard-vpn.com
+dns.mullvad.net
+dns.surfsharkdns.com
+dns.nordvpn.com
+dns.cyberghostvpn.com
+dns.privateinternetaccess.com
+dns.google/resolve
+dns.google/dns-query
+cloudflare-dns.com/dns-query
+dns.nextdns.io/dns-query
+dns.adguard.com/dns-query
+doh.opendns.com/dns-query
 dns.dnscrypt.eu
 doh.dnscrypt.eu
 dns.dnscrypt.uk
@@ -214,26 +185,3 @@ dns.dnscrypt.is
 doh.dnscrypt.is
 dns.dnscrypt.nz
 doh.dnscrypt.nz
-
-# --- BROWSER FALLBACK BLOCKING ---
-use-application-dns.net
-mozilla.cloudflare-dns.com
-mozilla.nextdns.io
-
-# --- VPN DNS PROVIDERS ---
-dns.cloudflare-gateway.com
-dns.nextdns-gateway.com
-dns.adguard-vpn.com
-dns.mullvad.net
-dns.surfsharkdns.com
-dns.nordvpn.com
-dns.cyberghostvpn.com
-dns.privateinternetaccess.com
-
-# --- API ENDPOINTS ---
-dns.google/resolve
-dns.google/dns-query
-cloudflare-dns.com/dns-query
-dns.nextdns.io/dns-query
-dns.adguard.com/dns-query
-doh.opendns.com/dns-query
