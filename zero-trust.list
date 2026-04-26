@@ -1,11 +1,15 @@
+# Google DNS
 dns.google
 dns.google.com
 dns.googleapis.com
 dns.google/resolve
 dns.google/dns-query
-h3.dns.google
-ws.dns.google
-grpc.dns.google
+8.8.8.8
+8.8.4.4
+2001:4860:4860::8888
+2001:4860:4860::8844
+
+# Cloudflare DNS
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
 security.cloudflare-dns.com
@@ -16,10 +20,22 @@ one.one.one.one
 cloudflare-dns.com/dns-query
 dns.quic.cloudflare-dns.com
 h3.cloudflare-dns.com
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+
+# Quad9
 dns.quad9.net
 dns10.quad9.net
 dns11.quad9.net
 dns9.quad9.net
+9.9.9.9
+149.112.112.112
+2620:fe::fe
+2620:fe::9
+
+# NextDNS
 dns.nextdns.io
 dns1.nextdns.io
 dns2.nextdns.io
@@ -28,9 +44,21 @@ h3.dns.nextdns.io
 ws.dns.nextdns.io
 grpc.dns.nextdns.io
 dns.quic.nextdns.io
+76.76.2.0
+76.76.10.0
+2a07:a8c0::1
+2a07:a8c1::1
+
+# OpenDNS / Cisco
 doh.opendns.com
 dns.opendns.com
 doh.opendns.com/dns-query
+208.67.222.222
+208.67.220.220
+2620:119:35::35
+2620:119:53::53
+
+# AdGuard
 dns.adguard.com
 dns-family.adguard.com
 dns-unfiltered.adguard.com
@@ -38,45 +66,95 @@ dns.adguard.com/dns-query
 dns.quic.adguard.com
 h3.dns.adguard.com
 ws.dns.adguard.com
+94.140.14.14
+94.140.15.15
+2a10:50c0::ad1:ff
+2a10:50c0::ad2:ff
+
+# CleanBrowsing
 doh.cleanbrowsing.org
 security-filter-dns.cleanbrowsing.org
 family-filter-dns.cleanbrowsing.org
 adult-filter-dns.cleanbrowsing.org
+185.228.168.9
+185.228.169.9
+2a0d:2a00:1::2
+2a0d:2a00:2::2
+
+# DNS.SB
 doh.dns.sb
 dns.sb
+45.11.45.11
+185.222.222.222
+
+# Mullvad
 doh.mullvad.net
 dot.mullvad.net
 dns.quic.mullvad.net
+194.242.2.2
+2a07:e340::2
+
+# Tenta
 doh.tenta.io
+
+# Yandex
 dns.yandex.net
 dns.yandex.com
+77.88.8.8
+77.88.8.1
+2a02:6b8::feed:0ff
+2a02:6b8::feed:bad
+
+# AliDNS
 dns.alidns.com
 dns.alidns.net
+223.5.5.5
+223.6.6.6
+
+# 360DNS
 doh.360.cn
 dns.360.cn
+101.226.4.6
+218.30.118.6
+
+# Swiss Privacy
 dns.digitale-gesellschaft.ch
 doh.digitale-gesellschaft.ch
 dns.digitale-gesellschaft.org
 doh.digitale-gesellschaft.org
-dns.switch.ch
-doh.switch.ch
-dns.swisscows.com
-doh.swisscows.com
+
+# LibreDNS
 doh.libredns.gr
 dot.libredns.gr
+
+# ControlD
 freedns.controld.com
 doh.controld.com
+76.76.2.22
+76.76.10.22
+
+# Applied Privacy
 doh.applied-privacy.net
 dot.applied-privacy.net
+
+# Decloudus
 dns.decloudus.com
 doh.decloudus.com
+
+# DNSlify
 dns.dnslify.com
 doh.dnslify.com
+
+# DNSForge
 dns.dnsforge.de
 doh.dnsforge.de
+
+# Browser fallback
 use-application-dns.net
 mozilla.cloudflare-dns.com
 mozilla.nextdns.io
+
+# VPN DNS
 dns.cloudflare-gateway.com
 dns.nextdns-gateway.com
 dns.adguard-vpn.com
@@ -85,12 +163,14 @@ dns.surfsharkdns.com
 dns.nordvpn.com
 dns.cyberghostvpn.com
 dns.privateinternetaccess.com
-dns.google/resolve
-dns.google/dns-query
-cloudflare-dns.com/dns-query
-dns.nextdns.io/dns-query
-dns.adguard.com/dns-query
-doh.opendns.com/dns-query
+103.86.96.100
+103.86.99.100
+10.8.0.1
+10.0.0.1
+10.64.0.1
+10.128.0.1
+
+# DNSCrypt (all major servers)
 dns.dnscrypt.eu
 doh.dnscrypt.eu
 dns.dnscrypt.uk
